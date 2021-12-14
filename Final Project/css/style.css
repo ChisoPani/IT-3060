@@ -1,0 +1,76 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #273c75;;
+}
+.navbar a{
+    line-height:auto;
+    color:white;
+    text-transform: uppercase;
+}
+.container-fluid{
+    padding:15px;
+}
+#anime .col-md-3 .showAnime{
+    height:400px;
+}
+#anime .col-md-3 img{
+    height:250px;
+}
+.xcontainer{
+    width:70%;
+    margin:0 auto;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container-fluid{
+    width:80%;
+    padding:15px;
+}
+#anime{
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#anime{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#anime > *{
+    border-radius:10px 10px 10px 10px;
+    margin:10px;
+    padding: 15px;
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+#anime .card {
+    display: flex;
+    flex-direction: row;
+
+}
+#anime .card > .card-body {
+    flex-grow: 1;
+}
+#anime .card > img {
+    flex-basis: auto;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: grey;
+}
+.card-body{
+    padding:20px;
+    border: 2px solid rgba(0,0,0,.155);
+}
+#snop{
+    padding:15px;
+}
+#search{
+    border-radius:25px 25px 25px 25px;
+}
+.card-header{
+    margin-bottom: 20px;
+}
+.card-img-top{
+    height:325px;
+}
